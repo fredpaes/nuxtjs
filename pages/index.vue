@@ -6,9 +6,6 @@
     <div class="columns is-multiline">
       <album-card :album="album" v-for="album in albums" :key="album.id"/>
     </div>
-    <a href="https://www.youtube.com/watch?v=DwMBu34rIOw" target="_blank" class="button is-primary">Continuar Curso</a>
-    <br><br>
-    <a href="https://stories.devacademy.la/6-pasarelas-de-pago-que-debes-conocer-d5ae78f9369c" class="button is-primary">Pasarelas de pago</a>
   </div>
 </template>
 
